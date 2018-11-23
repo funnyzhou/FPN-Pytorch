@@ -1,0 +1,7 @@
+setup.py
+mask_rcnn.egg-info/PKG-INFO
+mask_rcnn.egg-info/SOURCES.txt
+mask_rcnn.egg-info/dependency_links.txt
+mask_rcnn.egg-info/top_level.txt
+utils/cython_bbox.c
+utils/cython_nms.c
