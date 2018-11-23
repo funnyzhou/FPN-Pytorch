@@ -93,7 +93,11 @@ To be continued...
 
 ## Reference
 [1][Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002), CVPR 2017.
+
 [2][Deformable Convolutional Networks](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf), ICCV 2017.
+
 [3][SGDR: Stochastic Gradient Descent with Warm Restarts](https://arxiv.org/abs/1608.03983), ICLR 2017.
+
 [4][Cascade R-CNN: Delving into High Quality Object Detection](https://arxiv.org/abs/1712.00726), CVPR 2018.
+
 [5][An Analysis of Scale Invariance in Object Detection ­ SNIP](http://openaccess.thecvf.com/content_cvpr_2018/papers/Singh_An_Analysis_of_CVPR_2018_paper.pdf), CVPR 2018.
