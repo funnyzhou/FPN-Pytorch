@@ -56,7 +56,7 @@ To use deform conv, you need to set `MODEL.USE_DEFORM (False)` to `True`. Note t
 
 ## Cosine Annealing LR
 Cosine annealing lr has been proved to be effective in image classification tasks. The formula is very simple:
-$$\eta_t=\eta_{min}^i+\frac{1}{2}(\eta_{max}^i-\eta_{min}^i)(1+\cos(\frac{T_{cur}}{T_i}\pi))$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\eta_t=\eta_{min}^i&plus;\frac{1}{2}(\eta_{max}^i-\eta_{min}^i)(1&plus;\cos(\frac{T_{cur}}{T_i}\pi))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\eta_t=\eta_{min}^i&plus;\frac{1}{2}(\eta_{max}^i-\eta_{min}^i)(1&plus;\cos(\frac{T_{cur}}{T_i}\pi))" title="\eta_t=\eta_{min}^i+\frac{1}{2}(\eta_{max}^i-\eta_{min}^i)(1+\cos(\frac{T_{cur}}{T_i}\pi))" /></a>
 Since we only set the maximum iteration in `config` file, you need to set several hyperparameters:
 
 - `SOLVER.COSINE_LR (False)`: whether to use cosine annealing after warm up stage
